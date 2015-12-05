@@ -1,0 +1,90 @@
+OrianaProject organisation.
+
+Ressources graphiques et audio:
+	-Backgrounds pour chaque niveau
+	-Personnages
+		|-Plusieurs expressions du visage.
+		|-3 points de vue pour chaque élément du corps, tête comprise (face, profil droit, profil gauche).
+		|-2 frames minimum pour les déplacements (bras et jambes).
+		|-2 frames minimum pour les mouvements des bras.
+	-Items (bicyclettes, pistolets, batte de baseball
+	-Elements de décors passif (enrichissent l'envirronnement en plus du background et peuvent être dispersés dans le niveau pour casser la repétitivité du bg).
+	-Elements de décors intéractibles (enrichissent également l'envirronement mais les personnages peuvent interagir avec, comme sauter sur des caisses ou les casser).
+	-Effets des skills
+	-Interface
+	-Menu
+
+	-Musiques 
+		|-de fond en jeu
+		|-de fond dans le menu
+		|-de combat
+		|-de mort
+	-Bruitages
+		|-pas (marche)
+		|-regular attck (spécifique au personnage)
+		|-special attack
+		|-click des boutons du menu et de l'interface
+		|-items (rechargement du pistolet, tir, coup de batte, couinement de vélo)
+	-Voix (spécifiques au personnage)
+	-Divers (lors de l'équipement en jeu d'une batte de baseball, on peut entendre Homer dire "On va tout casser à coup de batte de baseball !")
+
+Gameplay:
+	-Divers
+		|-Check points (en coop, si un joueur meurt l'autre doit atteindre lcheck point suivant pour le faire revivre)
+	-Deplacements
+		|-Vitesse régulière
+		|-Vitesse de sprint
+		|-Coup en endurance du sprint
+		|-Hauteur de saut
+		|-Coup en endurance du saut (augmente la difficulté du jeu, évite de spam comme un débile contre les serpents)
+		|-Grimper (échelle, corde)
+	-Jauges:
+		|-Pool de vie
+		|-Pool d'endurance
+		|-Régénération naturelle de vie
+		|-Régénération naturelle d'endurance
+		|-Taux d'amélioration des pools et des niveaux de regen de vie et d'endurance
+	-Auto-attacks:
+		|-Fréquence
+		|-Portée
+		|-Dégats
+	-Skills et experience:
+		|-Niveau de joueur
+		|-Apprentissage de nouveaux skills
+		|-Equipement de skills appris avant le début de la partie
+		|-Caractéristiques du skill (coup en endurance/vie, effet gameplay, effet visuel)
+		|-Gains d'expèrience
+		|-Effets de progression de niveau
+
+Interface:
+	-Menu principal
+		|-Options
+		|-Solo / Coop
+		|-Sélection du niveau
+		|-Quitter
+	-Interface in-game
+		|-Barres de vie et d'endurance
+		|-Affichage des dégats infligés et reçus
+		|-Affichage des soins prodigués et reçus
+		|-Argent actuel
+		|-Barres d'expèrience
+		|-Temps de jeu
+		|-Vie du boss
+		|-Skills équipés
+		|-Equipement
+		|-Menu in-game
+	-Menu-ingame
+		|-Menu principal
+		|-Options
+		|-Sauvegarder
+		|-Quitter
+	-Elements extra
+		|-Fuck, Double Fuck, Triple Fuck, Multi-Fuck, Holy-Fuck (en fonction du nombre de kills enchainés rapidement, rapporte un bonus d'xp)
+		|-Au début d'un combat de boss, bande son "Are you ready to ruuuuuuuumbllllleeeeeee"
+		|-Après avoir battu un boss, bande son "And is name is Sylvain Durif" (originale musique avec Jhon Cena)
+		|-Wasted à la mort du ou des joueurs
+		|-Tête de Sylvain qui pleure aprés le wasted de mort
+		|-Achievements
+			|-Avoir toute la collection de bicyclettes
+			|-"Star du web" : réussir 3 Clique salope ! pendant que les add de Représente Clignancourt ! sont à l'écran. Faire ça un nombre conséquent
+				de fois ou dans chaque niveau ?
