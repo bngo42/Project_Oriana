@@ -5,14 +5,17 @@ Sylvain Durif :
 -Cosmic Light (support)			-> summon the Cosmic Christ's light to heal nearby allies and itself.
 -InVita Link (damage)			-> swap Sylvain's life bar with the target's one's. By the way, refill completely the target's endurance bar.
 -Soul Travel (utility)			-> allow Sylvain to duplicate himself in an invulnerable ghost. The copy don't aggro the foes and can move the same way as the original,
-									but this last one is immobilized during the spell and can already take aggro.
+						but this last one is immobilized during the spell and can already take aggro. Before the end of the timer, you can teleport your body
+						body to the ghost location and finish the spell.
 
 Morsay :
 -J'nique ta mere ! (utility-mobility)	-> empty the target's endurance bar after a dash on it.
--Represente Clignancourt ! (damage)		-> summon a group of delinquents from the Clignancourt ghetto in order to help Morsay against his foes.
-											They attacks and cc a few ennemies on their way.
--Clique salope ! (cc-area)				-> allow the player to click anywhere on the screen (in the limit of the spell's range) and bump foes out of the area.
--Crochet du droit (damage)				-> strike the first ennemy in front of Morsay with more damages than a regular strike.
+-Represente Clignancourt ! (damage)	-> summon a group of delinquents from the Clignancourt ghetto in order to help Morsay against his foes.
+						They attacks and cc a few ennemies on their way.
+-Clique salope ! (cc-area)		-> two areas appears on both sides of Morsay, with a middle range. The player can click on one of the two areas 
+						and bump foes out of the area. After 1 second, if the player didn't click on one of the area (too slow
+						or too blind) Morsay take a few damages. This skill has a low cost of endurance.
+-Crochet du droit (damage)		-> strike the first ennemy in front of Morsay with more damages than a regular strike.
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -20,22 +23,36 @@ BOSSES
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 Slipgate :
 -Shut down your fucking camera ! (utility)		-> slipgate strike the game-camera, making it shake and fissure.
--Dig a hole (utility-damage)					-> slipgate dig a hole under him and can repop anywhere on the map,
-													making a lot of damages if the player is on the exit location.
--Shovel swing (cc)								-> down-shot the player, throwing him far away from slipgate.
+-Dig a hole (utility-damage)				-> slipgate dig a hole under him and can repop anywhere on the map,
+								making a lot of damages if the player is on the exit location.
+-Shovel swing (cc)					-> down-shot the player, throwing him far away from slipgate.
 -Multiple auto-attack
 
 The Old Wat :
+-Sonic wave (damage)		-> after a second of canalization (the time of the sound, link at the the end of the description)
+					a sonic wave is throw in front of Wat, dealing damages on the targets hit. The damages
+					increase with the distance. There is no range max.
+-Wat did you expect ? (utility)	-> begin with the same animation and song as Sonic wave, but in place of the attack, Wat says
+					"did you expect ?" and transform a percentage of her endurance bar into life.
+-Handbag blast (damages-cc)	-> a strong blow with a handbag on the top of the target to smash it on the ground.
 
 Trump :
+-
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 HOSTILS
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-Monkeys :
+Monkeys (regulars):
+-Banana skin (cc-trap)	-> throw a banana's skin on the ground without limit duration, for a max of 2 per monkey. The first to 
+				walk on the skin (player or bot) is knockback for 1 second and the skin disapear.
+				Soul travel and Représente Clignancourt ! can activate the skin without effect.
+Snakes (regulars):
+-Snake bite (damage)	-> this is not really a skill. The snakes have a regular attack with a longer range than every other
+				character that push you a little away of the snake. The only way to strike the snake is to
+				dodge his attacks by jumping.
+				Quetzalcoatl strike and J'nique ta nère ! doesn't have any effect on the snakes.
+Illuminatis (silver):
 
-Illuminatis :
-
-Reptilians :
+Reptilians (gold):
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
